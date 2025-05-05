@@ -1,15 +1,15 @@
 <div class="left-side-bar">
     <div class="brand-logo">
         <a href="{{route('home')}}" >
-            {{-- <img src="{{asset('vendors/images/logo/logo-dark.svg')}}" alt="" class="dark-logo"> --}}
+            {{-- <img src="{{asset('vendors/images/logo/logo-dark.png')}}" alt="" class="dark-logo"> --}}
             {{-- <img src="{{asset('vendors/images/logo/deskapp-logo-white.svg')}}" alt="" class="light-logo"> --}}
-            <img src="{{asset('vendors/images/logo/logo-dark.svg')}}" alt="" class="dark-logo" width="20px" height="30px">
+            <img src="{{asset('vendors/images/logo/logo-dark.png')}}" alt="" class="dark-logo" width="20px" height="30px">
 
-            <img src="{{asset('vendors/images/logo/logo-dark.svg')}}" alt="" class="light-logo" width="30px" height="30px">
+            <img src="{{asset('vendors/images/logo/logo-dark.png')}}" alt="" class="light-logo" width="30px" height="30px">
 
-            {{-- <span class="" style="color:rgb(61, 61, 231)">Nadi Yoon Htike
+            {{-- <span class="" style="color:rgb(61, 61, 231)">SneakersBuy
 </span> --}}
-            <span class="mx-1" style="color:rgb(229, 229, 236)">Nadi Yoon Htike
+            <span class="mx-1" style="color:rgb(229, 229, 236)">SneakersBuy
 </span>
         </a>
         <div class="close-sidebar" data-toggle="left-sidebar-close">

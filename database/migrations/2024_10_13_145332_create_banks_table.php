@@ -11,7 +11,7 @@ class CreateBanksTable extends Migration
             $table->id();
             $table->string('bank_name')->unique();
             $table->string('image')->nullable();
-            $table->enum('bank_type', ['bank_account', 'paynumber']);
+            $table->enum('bank_type', ['bank_account', 'pay_number']);
             $table->timestamps();
         });
     }

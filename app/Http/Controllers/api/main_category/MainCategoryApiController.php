@@ -548,11 +548,11 @@ class MainCategoryApiController extends Controller
                     'brand_id' => $product->brand_id,
                     'brand_name'=>$product->brand->name ?? null,
                     'category_name' => $product->category->name ?? null,
-
+                    "price" => (int) $product->variations->first()->price  ?? 0,
                     'short_description' => $product->short_description,
                     'original_price' => $product->original_price ?? 0,
                     'discount_price' => $product->discount_price ?? 0,
-                    'image' => $product->images->first()->path ?? null,
+                    'image' => $product->variations->first()?->images->first()?->image_path ?? null,   // if still null, default to null
                 ];
             }),
             'New_Arrivals' => $products3->map(function ($product) {
@@ -566,7 +566,8 @@ class MainCategoryApiController extends Controller
                     'short_description' => $product->short_description,
                     'original_price' => $product->original_price ?? 0,
                     'discount_price' => $product->discount_price ?? 0,
-                    'image' => $product->images->first()->path ?? null,
+                    "price" => (int) $product->variations->first()->price  ?? 0,
+                    'image' => $product->variations->first()?->images->first()?->image_path ?? null,   // if still null, default to null
                 ];
             }),
             'Your_trending_picks' => $products4->map(function ($product) {
@@ -580,7 +581,8 @@ class MainCategoryApiController extends Controller
                     'short_description' => $product->short_description,
                     'original_price' => $product->original_price ?? 0,
                     'discount_price' => $product->discount_price ?? 0,
-                    'image' => $product->images->first()->path ?? null,
+                    "price" => (int) $product->variations->first()->price  ?? 0,
+                    'image' => $product->variations->first()?->images->first()?->image_path ?? null,   // if still null, default to null
                 ];
             }),
         ];

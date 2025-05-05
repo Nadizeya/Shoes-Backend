@@ -512,7 +512,7 @@
 </div>
 
 {{--<div class="footer-wrap pd-20 card-box myfoot">--}}
-{{--    Developed By Nay Oo Lwin--}}
+{{--    Developed By Voom--}}
 {{--</div>--}}
 
 @endsection

@@ -165,7 +165,7 @@ class ProductApiController extends Controller
                 // Use the first variation's price if available
                 'price'             => $firstVariation ? (int)$firstVariation->price : 0,
                 // Use the first image path of the first variation, or null if none exists
-                'image'             => $firstImage ? $firstImage->image_path : null,
+                'image' => $product->variations->first()?->images->first()?->image_path ?? null,
 
             ];
         });

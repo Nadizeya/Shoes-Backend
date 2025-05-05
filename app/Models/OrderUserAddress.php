@@ -8,7 +8,7 @@ class OrderUserAddress extends Model
 {
     use HasFactory;
 
-    protected $table = 'order_user_address'; // Specify the table name explicitly
+    protected $table = 'order_user_addresses'; // Specify the table name explicitly
 
     protected $fillable = [
         'username',

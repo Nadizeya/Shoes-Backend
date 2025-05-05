@@ -418,7 +418,7 @@
 </div>
 
 {{--     <div class="footer-wrap pd-20 mb-20 card-box text-center">--}}
-{{--                    Developed By Nay Oo Lwin--}}
+{{--                    Developed By Voom--}}
 {{--     </div>--}}
 @endsection
 

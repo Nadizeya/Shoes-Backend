@@ -1,6 +1,6 @@
 @extends('layouts.app')
 
-@section('title','Nadi Yoon Htike')
+@section('title','SneakersBuy')
 
 @section('css')
      Place any custom CSS or links here

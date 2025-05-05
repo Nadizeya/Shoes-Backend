@@ -3,7 +3,7 @@
 <head>
     <!-- Basic Page Info -->
     <meta charset="utf-8">
-    <title>Nadi Yoon Htike</title>
+    <title>SneakersBuy</title>
 
     <!-- Site favicon -->
     {{-- <link rel="apple-touch-icon" sizes="180x180" href="{{asset('vendors/images/apple-touch-icon.png')}}">
@@ -13,9 +13,9 @@
 
 
     <link rel="icon" type="image/png" sizes="16x16" href="{{asset('vendors/images/favicon-16x16.png')}}"> --}}
-    <link rel="apple-touch-icon" sizes="180x180" href="{{asset('vendors/images/logo/logo-dark.svg')}}">
-    <link rel="icon" type="image/png" sizes="32x32" href="{{asset('vendors/images/logo/logo-dark.svg')}}">
-    <link rel="icon" type="image/png" sizes="16x16" href="{{asset('vendors/images/logo/logo-dark.svg')}}">
+    <link rel="apple-touch-icon" sizes="180x180" href="{{asset('vendors/images/logo/logo-dark.png')}}">
+    <link rel="icon" type="image/png" sizes="32x32" href="{{asset('vendors/images/logo/logo-dark.png')}}">
+    <link rel="icon" type="image/png" sizes="16x16" href="{{asset('vendors/images/logo/logo-dark.png')}}">
 
 
 

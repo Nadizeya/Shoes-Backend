@@ -6,9 +6,9 @@
         <div class="brand-logo">
             <a href="{{route('admin.login')}}" style="color: #323232;text-transform: capitalize">
                 {{-- <img src="{{ asset('vendors/images/deskapp-logo.svg') }}" alt=""> --}}
-                 <img src="{{asset('vendors/images/logo/logo-dark.svg')}}" alt="" class="light-logo mr-2" width="50px" height="50px" >
+                 <img src="{{asset('vendors/images/logo/logo-dark.png')}}" alt="" class="light-logo mr-2" width="50px" height="50px" >
 
-                <span style="text-transform: capitalize">Nadi Yoon Htike</span>
+                <span style="text-transform: capitalize">SneakersBuy</span>
 
 
             </a>
